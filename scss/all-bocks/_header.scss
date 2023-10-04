@@ -1,0 +1,136 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/open-sans-v36-latin-300.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/open-sans-v36-latin-regular.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/open-sans-v36-latin-500.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/open-sans-v36-latin-600.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/open-sans-v36-latin-700.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/open-sans-v36-latin-800.woff2') format('woff2');
+  }
+
+
+.header {
+    margin-top: 40px;
+}
+
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__item+.nav__item {
+    margin-left: 33px;
+}
+
+.header__link {
+    color: #83888F;
+    font-family: "Barlow";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    text-transform: uppercase;
+}
+
+.header__link:hover {
+    color: #333D4B;
+    font-family: "Barlow";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.backround__img {
+    background-image: url(../../img/Bitmap2.png);
+    width: 1280px;
+    height: 600px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.container .backround__img {
+    padding-left: 86px;
+    padding-top: 115px;
+    padding-bottom: 115px;
+}
+
+.back__h1 {
+    width: 493px;
+    color: #FEFCF7;
+    font-family: "Fraunces";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px;
+    margin-bottom: 32px;
+}
+
+.back__text {
+    width: 445px;
+    color: #FEFCF7;
+    font-family: "Barlow";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 56px;
+}
+
+.button {
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px;
+    width: 217px;
+    height: 56px;
+    border-radius: 6px;
+    background: #66D2CF;
+}
